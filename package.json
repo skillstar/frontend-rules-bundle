@@ -1,12 +1,36 @@
 {
   "name": "frontend-rules-bundle",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "前端编码规范工程化",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install",
+    "init": "pnpm install",
+    "clean": "lerna clean && rm -rf node_modules",
+    "build": "lerna run build --stream",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "deploy": "bash deploy.sh",
+    "publish": "lerna publish",
+    "lint": "markdownlint README.md",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "docs:preview": "vitepress preview docs"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "husky": "^9.0.11",
+    "markdownlint": "^0.34.0"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.2",
+    "vitepress": "^1.2.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
