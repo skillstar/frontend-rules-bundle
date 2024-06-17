@@ -1,0 +1,32 @@
+{
+  "name": "frb-commitlint-config",
+  "version": "0.0.0",
+  "description": "Git规范",
+  "keywords": [
+    "commit",
+    "lint"
+  ],
+  "author": "yangsheng8 <344182792@qq.com>",
+  "homepage": "https://github.com/yangsheng8/frontend-rules-bundle#readme",
+  "license": "ISC",
+  "main": "lib/commitlint-config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangsheng8/frontend-rules-bundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yangsheng8/frontend-rules-bundle/issues"
+  },
+  "devDependencies": {
+    "conventional-changelog-conventionalcommits": "^8.0.0"
+  }
+}
