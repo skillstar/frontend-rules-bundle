@@ -31,5 +31,10 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "npx --no -- commitlint --edit $1"
+    }
   }
 }
