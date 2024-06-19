@@ -1,6 +1,6 @@
 {
   "name": "frb-commitlint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Git规范",
   "keywords": [
     "commit",
@@ -29,5 +29,5 @@
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^8.0.0"
   },
-  "gitHead": "adab0f9552d80ca407a022fa2cc58ce3e0871093"
+  "gitHead": "b0e7ccd09eca7166bbd33f1f02ca35d3c76cabcf"
 }
