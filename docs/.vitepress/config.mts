@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "FrontendRulesBundle",
   description: "前端编码规范工程化",
+  base: '/frontend-rules-bundle/',
   head: [["link", { rel: "icon", href: "/img/logo.png" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
