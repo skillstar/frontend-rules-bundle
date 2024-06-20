@@ -1,0 +1,8 @@
+38 error Error: Command failed with exit code 1: git commit -m chore(release): publish v0.0.3
+38 error .husky/_/pre-commit: line 2: .husky/_/_/husky.sh: No such file or directory
+38 error     at makeError (E:\npm\node_modules\lerna\node_modules\execa\lib\error.js:59:11)
+38 error     at handlePromise (E:\npm\node_modules\lerna\node_modules\execa\index.js:114:26)
+38 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+38 error     at async VersionCommand.gitCommitAndTagVersion (E:\npm\node_modules\lerna\dist\index.js:8539:11)
+38 error     at async VersionCommand.commitAndTagUpdates (E:\npm\node_modules\lerna\dist\index.js:8505:18)
+38 error     at async Promise.all (index 0)
