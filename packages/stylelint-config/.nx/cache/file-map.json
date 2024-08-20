@@ -1,0 +1,50 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.1.1",
+  "deps": {
+    "jest": "^29.7.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": "README.md",
+        "hash": "8291972584647507874"
+      },
+      {
+        "file": "__tests__/fixtures/css-module.scss",
+        "hash": "14661900870723869652"
+      },
+      {
+        "file": "__tests__/fixtures/essential.css",
+        "hash": "13799379268910923452"
+      },
+      {
+        "file": "__tests__/fixtures/index.css",
+        "hash": "10823338994230588651"
+      },
+      {
+        "file": "__tests__/fixtures/less-test.less",
+        "hash": "11327706462659243287"
+      },
+      {
+        "file": "__tests__/fixtures/sass-test.scss",
+        "hash": "628091563043179507"
+      },
+      {
+        "file": "__tests__/rules-validate.test.js",
+        "hash": "12403438509440774385"
+      },
+      {
+        "file": "index.js",
+        "hash": "12493382889138857267"
+      },
+      {
+        "file": "package.json",
+        "hash": "751125572289765725"
+      }
+    ]
+  }
+}

@@ -1,17 +1,21 @@
 {
-  "name": "frb-commitlint-config",
+  "name": "frb-eslint-config",
   "version": "0.0.6",
-  "description": "Git规范",
+  "description": "FRB的 JavaScript TypeScript Node 规范",
   "keywords": [
-    "commit",
+    "frontend-rules-bundle",
+    "javaScript",
+    "typescript",
+    "node",
     "lint"
   ],
-  "author": "Anson",
+  "author": "yangsheng8 <344182792@qq.com>",
   "homepage": "https://github.com/yangsheng8/frontend-rules-bundle#readme",
   "license": "ISC",
-  "main": "lib/commitlint-config.js",
+  "main": "lib/index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "__tests__"
   },
   "files": [
     "lib"
@@ -23,11 +27,12 @@
     "type": "git",
     "url": "git+https://github.com/yangsheng8/frontend-rules-bundle.git"
   },
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "mocha ./__tests__/*.test.js --timeout 5000",
+    "print-config": "eslint --print-config ./lib/index.js > ./print-config.json"
+  },
   "bugs": {
     "url": "https://github.com/yangsheng8/frontend-rules-bundle/issues"
-  },
-  "devDependencies": {
-    "conventional-changelog-conventionalcommits": "^8.0.0"
-  },
-  "gitHead": "21a0d4e3cf8ef0bc3820e2980d579b00b9b84af1"
+  }
 }

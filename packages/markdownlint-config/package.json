@@ -2,7 +2,7 @@
   "name": "frb-markdownlint-config",
   "version": "0.0.6",
   "description": "文档规范",
-  "author": "yangsheng8 <344182792@qq.com>",
+  "author": "Anson",
   "homepage": "https://github.com/yangsheng8/frontend-rules-bundle#readme",
   "license": "ISC",
   "main": "index.json",

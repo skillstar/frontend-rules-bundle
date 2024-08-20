@@ -5,8 +5,8 @@ categories:
 tags:
     - 编码规范
 author:
-    name: 澄怀
-    link: https://github.com/encode-studio-fe/fe-spec
+    name: Anson
+    link: https://github.com/yangsheng8/frontend-rules-bundle
 ---
 
 # TypeScript 编码规范

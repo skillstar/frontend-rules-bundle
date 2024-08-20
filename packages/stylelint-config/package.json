@@ -1,21 +1,22 @@
 {
-  "name": "frb-commitlint-config",
+  "name": "frb-stylelint-config",
   "version": "0.0.6",
-  "description": "Git规范",
+  "main": "index.js",
   "keywords": [
-    "commit",
+    "style",
     "lint"
   ],
+  "description": "CSS规范",
   "author": "Anson",
   "homepage": "https://github.com/yangsheng8/frontend-rules-bundle#readme",
   "license": "ISC",
-  "main": "lib/commitlint-config.js",
-  "directories": {
-    "lib": "lib"
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
   },
-  "files": [
-    "lib"
-  ],
+  "directories": {
+    "test": "__tests__"
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
@@ -23,11 +24,17 @@
     "type": "git",
     "url": "git+https://github.com/yangsheng8/frontend-rules-bundle.git"
   },
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
+  },
   "bugs": {
     "url": "https://github.com/yangsheng8/frontend-rules-bundle/issues"
   },
-  "devDependencies": {
-    "conventional-changelog-conventionalcommits": "^8.0.0"
+  "dependencies": {
+    "jest": "^29.7.0"
   },
-  "gitHead": "21a0d4e3cf8ef0bc3820e2980d579b00b9b84af1"
+  "devDependencies": {
+    "stylelint": "^16.8.1",
+    "stylelint-scss": "^6.5.0"
+  }
 }
