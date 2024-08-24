@@ -43,9 +43,9 @@
 | Git 规范                                                          | [commitlint](https://commitlint.js.org/#/)                 | [frb-commitlint-config](https://www.npmjs.com/package/frb-commitlint-config)     |
 | 文档规范                                                          | [markdownlint](https://github.com/DavidAnson/markdownlint) | [frb-markdownlint-config](https://www.npmjs.com/package/frb-markdownlint-config) |
 
-[frb-spec-cli](https://www.npmjs.com/package/frb-spec-cli) 收敛屏蔽了上述依赖和配置细节，提供简单的 `CLI` 和 `Node.js API`，让项目能够一键接入、一键扫描、一键修复、一键升级，并为项目配置 git commit 卡口，降低项目接入规约的成本。
+[frb-lint-cli](https://www.npmjs.com/package/frb-lint-cli) 收敛屏蔽了上述依赖和配置细节，提供简单的 `CLI` 和 `Node.js API`，让项目能够一键接入、一键扫描、一键修复、一键升级，并为项目配置 git commit 卡口，降低项目接入规约的成本。
 
-您可以使用[frb-spec-cli](https://www.npmjs.com/package/frb-spec-cli) 方便地为项目接入全部规范。
+您可以使用[frb-lint-cli](https://www.npmjs.com/package/frb-lint-cli) 方便地为项目接入全部规范。
 
 ## 1.5. 其他
 
