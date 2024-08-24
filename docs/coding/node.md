@@ -99,7 +99,7 @@ async function readData(filePath) {
 }
 ```
 
-- 1.3.【推荐】如无特殊需求，模块引用声明放在文件顶端，注意引用顺序。`eslint`: [import/order](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md)
+- 1.3.【推荐】如无特殊需求,注意引用顺序, 模块引用声明放在文件顶端。`eslint`: [import/order](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md)
 
 如无特殊需求（如动态 require），模块引用声明需要放在文件顶端。引用顺序如无特殊需求，按以下顺序来引入依赖：`node` 内置模块、`npm` 包、本地文件或其他，几类文件代码块之间各空一行，每类文件代码块中的引用顺序按照字典排序，如有解构引用情况，字典序以解构的第一个为准，解构内部按照字典排序。
 
