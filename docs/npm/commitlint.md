@@ -1,18 +1,18 @@
 ---
-title: encode-fe-commitlint-config
+title: frb-commitlint-config
 categories:
   - 工程规范
 tags:
   - 工程规范
 author:
-  name: 澄怀
-  link: https://github.com/encode-studio-fe/fe-spec
+  name: Anson
+  link: https://github.com/yangsheng8/frontend-rules-bundle
 ---
 
-# encode-fe-commitlint-config
+# frb-commitlint-config
 
 :::tip
-印客学院 Git 规范
+FRB-Git 规范
 :::
 
 支持配套的 [commitlint 配置](https://commitlint.js.org/#/concepts-shareable-config)，用于对 `git commit message` 进行校验。
@@ -22,7 +22,7 @@ author:
 使用时，需要安装 [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli)：
 
 ```bash
-npm install encode-fe-commitlint-config @commitlint/cli --save-dev
+npm install frb-commitlint-config @commitlint/cli --save-dev
 ```
 
 ## 使用
@@ -31,7 +31,7 @@ npm install encode-fe-commitlint-config @commitlint/cli --save-dev
 
 ```javascript
 module.exports = {
-  extends: ['encode-fe-commitlint-config'],
+  extends: ['frb-commitlint-config'],
 };
 ```
 

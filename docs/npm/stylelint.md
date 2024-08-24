@@ -1,18 +1,18 @@
 ---
-title: encode-fe-stylelint-config
+title: frb-stylelint-config
 categories:
   - 工程规范
 tags:
   - 工程规范
 author:
-  name: 澄怀
-  link: https://github.com/encode-studio-fe/fe-spec
+  name: Anson
+  link: https://github.com/yangsheng8/frontend-rules-bundle
 ---
 
-# encode-fe-stylelint-config
+# frb-stylelint-config
 
 :::tip
-印客学院 CSS 规范
+FRB CSS 规范
 :::
 
 支持配套的 [stylelint 可共享配置](https://stylelint.io/user-guide/configure)。
@@ -22,7 +22,7 @@ author:
 需要先行安装 [stylelint](https://www.npmjs.com/package/stylelint) 和 [stylelint-scss](https://www.npmjs.com/package/stylelint-scss)：
 
 ```bash
-npm install encode-fe-stylelint-config stylelint stylelint-scss --save-dev
+npm install frb-stylelint-config stylelint stylelint-scss --save-dev
 ```
 
 ## 使用
@@ -31,6 +31,6 @@ npm install encode-fe-stylelint-config stylelint stylelint-scss --save-dev
 
 ```json
 {
-  "extends": "encode-fe-stylelint-config"
+  "extends": "frb-stylelint-config"
 }
 ```

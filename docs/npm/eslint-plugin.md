@@ -1,20 +1,20 @@
 ---
-title: encode-fe-eslint-plugin
+title: frb-eslint-plugin
 categories:
   - 工程规范
 tags:
   - 工程规范
 author:
-  name: 澄怀
-  link: https://github.com/encode-studio-fe/fe-spec
+  name: Anson
+  link: https://github.com/yangsheng8/frontend-rules-bundle
 ---
 
-# encode-fe-eslint-plugin
+# frb-eslint-plugin
 
 除了本包，你需要同时安装 [ESlint](https://eslint.org/)
 
 ```shell
-$ npm install encode-fe-eslint-plugin eslint --save-dev
+$ npm install frb-eslint-plugin eslint --save-dev
 ```
 
 ## 使用
@@ -24,9 +24,9 @@ $ npm install encode-fe-eslint-plugin eslint --save-dev
 ```js
 // .eslintrc.js
 module.exports = {
-  plugin: ['encode-fe-eslint-config'],
+  plugin: ['frb-eslint-config'],
   rules: {
-    'encode-fe-eslint-plugin/no-secret-info': 'error',
+    'frb-eslint-plugin/no-secret-info': 'error',
   },
 };
 ```
@@ -36,7 +36,7 @@ module.exports = {
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: 'plugin:encode-fe-eslint-plugin/recommended',
+  extends: 'plugin:frb-eslint-plugin/recommended',
 };
 ```
 
@@ -61,8 +61,8 @@ module.exports = {
 **错误代码**示例:
 
 ```js
-var test = 'http://chenghuai.com';
-var jsx = <img src="http://chenghuai.com">;
+var test = 'http://frontend-rules-bundle.com';
+var jsx = <img src="http://frontend-rules-bundle.com">;
 ```
 
 #### 何时不适用
