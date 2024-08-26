@@ -73,7 +73,7 @@ pnpm run changelog
 pnpm husky install
 ```
 
-## 1.7. :email: 联系方式
+## 1.7. :email: 联系
 
 -   **前端编码规范工程化** <https://yangsheng8.github.io/frontend-rules-bundle/>
 -   **GitHub**: <https://github.com/yangsheng8/frontend-rules-bundle>
