@@ -1,6 +1,6 @@
 {
   "name": "frb-markdownlint-config",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "文档规范",
   "author": "Anson",
   "homepage": "https://github.com/yangsheng8/frontend-rules-bundle#readme",
