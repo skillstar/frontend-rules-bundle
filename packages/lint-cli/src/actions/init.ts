@@ -1,6 +1,6 @@
 import path from 'path';
 import fs from 'fs-extra';
-import inquirer from 'inquirer';
+import { rawlist, confirm } from '@inquirer/prompts'; //交互式问答
 import spawn from 'cross-spawn';
 import update from './update';
 import npmType from '../utils/npm-type';
@@ -16,9 +16,7 @@ let step = 0;
  * 选择项目语言和框架
  */
 const chooseEslintType = async (): Promise<string> => {
-  const { type } = await inquirer.prompt({
-    type: 'list',
-    name: 'type',
+  const type = await rawlist({
     message: `Step ${++step}. 请选择项目的语言（JS/TS）和框架（React/Vue）类型：`,
     choices: PROJECT_TYPES,
   });
@@ -31,9 +29,7 @@ const chooseEslintType = async (): Promise<string> => {
  * @param defaultValue
  */
 const chooseEnableStylelint = async (defaultValue: boolean): Promise<boolean> => {
-  const { enable } = await inquirer.prompt({
-    type: 'confirm',
-    name: 'enable',
+  const enable = await confirm({
     message: `Step ${++step}. 是否需要使用 stylelint（若没有样式文件则不需要）：`,
     default: defaultValue,
   });
@@ -45,9 +41,7 @@ const chooseEnableStylelint = async (defaultValue: boolean): Promise<boolean> =>
  * 选择是否启用 markdownlint
  */
 const chooseEnableMarkdownLint = async (): Promise<boolean> => {
-  const { enable } = await inquirer.prompt({
-    type: 'confirm',
-    name: 'enable',
+  const enable = await confirm({
     message: `Step ${++step}. 是否需要使用 markdownlint（若没有 Markdown 文件则不需要）：`,
     default: true,
   });
@@ -59,9 +53,7 @@ const chooseEnableMarkdownLint = async (): Promise<boolean> => {
  * 选择是否启用 prettier
  */
 const chooseEnablePrettier = async (): Promise<boolean> => {
-  const { enable } = await inquirer.prompt({
-    type: 'confirm',
-    name: 'enable',
+  const enable = await confirm({
     message: `Step ${++step}. 是否需要使用 Prettier 格式化代码：`,
     default: true,
   });

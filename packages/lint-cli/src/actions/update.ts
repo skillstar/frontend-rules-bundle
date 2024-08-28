@@ -1,5 +1,5 @@
 import { execSync } from 'child_process';
-import ora from 'ora';
+import ora from 'ora'; //在命令行提示加载...
 import log from '../utils/log';
 import npmType from '../utils/npm-type';
 import { PKG_NAME, PKG_VERSION } from '../utils/constants';
@@ -11,6 +11,7 @@ const checkLatestVersion = async (): Promise<string | null> => {
   const npm = await npmType;
   const latestVersion = execSync(`${npm} view ${PKG_NAME} version`).toString('utf-8').trim();
 
+  //最新版本对比，相等不需要更新
   if (PKG_VERSION === latestVersion) return null;
 
   const compareArr = PKG_VERSION.split('.').map(Number);
