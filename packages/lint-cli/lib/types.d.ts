@@ -18,6 +18,7 @@ export interface Config {
     eslintOptions?: ESLint.Options;
     stylelintOptions?: stylelint.LinterOptions;
     markdownlintOptions?: markdownlint.Options;
+    extends?: string | string[];
 }
 export interface ScanOptions {
     cwd: string;

@@ -76,6 +76,15 @@ export const PROJECT_TYPES: Array<{ name: string; value: string }> = [
  */
 export const ESLINT_FILE_EXT: string[] = ['.js', '.jsx', '.ts', '.tsx', '.vue'];
 
+export const ESLINT_FILE: string[] = [
+  '**/*.js',
+  '**/*.jsx',
+  '**/*.ts',
+  '**/*.tsx',
+  '**/*.vue',
+]
+
+
 /**
  * eslint 扫描忽略的文件或文件目录
  * 需要同步到 config/.eslintignore.ejs

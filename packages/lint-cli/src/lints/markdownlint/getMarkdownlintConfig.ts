@@ -1,7 +1,8 @@
 import path from 'path';
 import glob from 'glob';
 import markdownLint from 'markdownlint';
-import markdownLintConfig from 'markdownlint-config-encode';
+// @ts-ignore
+import markdownLintConfig from 'frb-markdownlint-config';
 import type { ScanOptions, PKG, Config } from '../../types';
 
 type LintOptions = markdownLint.Options & { fix?: boolean };
@@ -22,7 +23,11 @@ export function getMarkdownlintConfig(opts: ScanOptions, pkg: PKG, config: Confi
   } else {
     const lintConfigFiles = glob.sync('.markdownlint(.@(yaml|yml|json))', { cwd });
     if (lintConfigFiles.length === 0) {
-      lintConfig.config = markdownLintConfig;
+       // 修改 "ul-style" 属性的值
+       lintConfig.config = {
+        ...markdownLintConfig,
+        'ul-style': { style: 'consistent' },
+      };
     } else {
       lintConfig.config = markdownLint.readConfigSync(path.resolve(cwd, lintConfigFiles[0]));
     }

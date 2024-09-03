@@ -28,6 +28,7 @@ export interface Config {
   stylelintOptions?: stylelint.LinterOptions;
   // markdownlint 配置项
   markdownlintOptions?: markdownlint.Options;
+  extends?: string | string[];
 }
 
 export interface ScanOptions {

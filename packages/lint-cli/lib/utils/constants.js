@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PRETTIER_IGNORE_PATTERN = exports.PRETTIER_FILE_EXT = exports.MARKDOWN_LINT_IGNORE_PATTERN = exports.MARKDOWN_LINT_FILE_EXT = exports.STYLELINT_IGNORE_PATTERN = exports.STYLELINT_FILE_EXT = exports.ESLINT_IGNORE_PATTERN = exports.ESLINT_FILE_EXT = exports.PROJECT_TYPES = exports.PKG_VERSION = exports.PKG_NAME = exports.UNICODE = void 0;
+exports.PRETTIER_IGNORE_PATTERN = exports.PRETTIER_FILE_EXT = exports.MARKDOWN_LINT_IGNORE_PATTERN = exports.MARKDOWN_LINT_FILE_EXT = exports.STYLELINT_IGNORE_PATTERN = exports.STYLELINT_FILE_EXT = exports.ESLINT_IGNORE_PATTERN = exports.ESLINT_FILE = exports.ESLINT_FILE_EXT = exports.PROJECT_TYPES = exports.PKG_VERSION = exports.PKG_NAME = exports.UNICODE = void 0;
 const path_1 = __importDefault(require("path"));
 const fs_extra_1 = __importDefault(require("fs-extra"));
 const pkg = JSON.parse(fs_extra_1.default.readFileSync(path_1.default.join(__dirname, '../../package.json'), 'utf8'));
@@ -11,7 +11,7 @@ var UNICODE;
 (function (UNICODE) {
     UNICODE["success"] = "\u2714";
     UNICODE["failure"] = "\u2716";
-})(UNICODE || (exports.UNICODE = UNICODE = {}));
+})(UNICODE = exports.UNICODE || (exports.UNICODE = {}));
 exports.PKG_NAME = pkg.name;
 exports.PKG_VERSION = pkg.version;
 exports.PROJECT_TYPES = [
@@ -61,6 +61,13 @@ exports.PROJECT_TYPES = [
     },
 ];
 exports.ESLINT_FILE_EXT = ['.js', '.jsx', '.ts', '.tsx', '.vue'];
+exports.ESLINT_FILE = [
+    '**/*.js',
+    '**/*.jsx',
+    '**/*.ts',
+    '**/*.tsx',
+    '**/*.vue',
+];
 exports.ESLINT_IGNORE_PATTERN = [
     'node_modules/',
     'build/',

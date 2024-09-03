@@ -8,6 +8,7 @@ describe('init', () => {
   const templatePath = path.resolve(__dirname, './fixtures/template/init');
   const outputPath = path.resolve(__dirname, './fixtures/template/temp');
 
+  //在每个测试用例执行之前被调用,把模板拷贝，重命名_vscode
   beforeEach(() => {
     fs.copySync(templatePath, outputPath);
     fs.renameSync(`${outputPath}/_vscode`, `${outputPath}/.vscode`);

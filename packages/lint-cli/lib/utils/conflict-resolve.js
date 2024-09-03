@@ -77,9 +77,11 @@ exports.default = (cwd, rewriteConfig) => __awaiter(void 0, void 0, void 0, func
             log_1.default.warn(JSON.stringify(reWriteConfig, null, 2));
         }
         if (typeof rewriteConfig === 'undefined') {
-            yield (0, prompts_1.confirm)({
+            const isOverWrite = yield (0, prompts_1.confirm)({
                 message: '请确认是否继续：'
             });
+            if (!isOverWrite)
+                process.exit(0);
         }
         else if (!reWriteConfig) {
             process.exit(0);

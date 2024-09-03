@@ -33,7 +33,7 @@ const checkLatestVersion = () => __awaiter(void 0, void 0, void 0, function* () 
         }
     }
 });
-exports.default = (...args_1) => __awaiter(void 0, [...args_1], void 0, function* (install = true) {
+exports.default = (install = true) => __awaiter(void 0, void 0, void 0, function* () {
     const checking = (0, ora_1.default)(`[${constants_1.PKG_NAME}] 正在检查最新版本...`);
     checking.start();
     try {
