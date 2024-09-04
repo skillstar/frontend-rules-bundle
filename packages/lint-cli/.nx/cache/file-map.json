@@ -12,12 +12,10 @@
     "chalk": "^4.1.0",
     "command-exists": "^1.2.9",
     "commander": "^6.2.1",
-    "commitlint-config-encode": "^1.0.8",
     "cross-spawn": "^7.0.3",
     "ejs": "^3.1.5",
     "eslint": "^8.7.0",
     "eslint-config-egg": "^10.0.0",
-    "eslint-config-encode": "^1.0.8",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.22.1",
@@ -28,7 +26,10 @@
     "eslint-plugin-vue": "^7.3.0",
     "execa": "^5.0.0",
     "fast-glob": "^3.2.11",
-    "frb-markdownlint-config": "^0.0.7",
+    "frb-commitlint-config": "^0.0.10",
+    "frb-eslint-config": "^0.0.10",
+    "frb-markdownlint-config": "^0.0.10",
+    "frb-stylelint-config": "^0.0.10",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
     "husky": "^3.1.0",
@@ -36,13 +37,11 @@
     "is-docker": "^2.1.1",
     "lodash": "^4.17.20",
     "markdownlint": "^0.25.1",
-    "markdownlint-config-encode": "^1.0.8",
     "markdownlint-rule-helpers": "^0.13.0",
     "ora": "^5.1.0",
     "prettier": "^2.2.1",
     "strip-ansi": "^6.0.0",
     "stylelint": "^14.3.0",
-    "stylelint-config-encode": "^1.0.9",
     "stylelint-scss": "^4.1.0",
     "terminal-link": "^2.1.1",
     "text-table": "^0.2.0",
@@ -74,7 +73,7 @@
       },
       {
         "file": ".eslintrc.js",
-        "hash": "15431402484478691729"
+        "hash": "765592643264007006"
       },
       {
         "file": ".gitignore",
@@ -102,7 +101,7 @@
       },
       {
         "file": "package.json",
-        "hash": "3405178717367920648"
+        "hash": "8119200586067539150"
       },
       {
         "file": "src/actions/init.ts",
@@ -186,7 +185,7 @@
       },
       {
         "file": "src/lints/eslint/getESLintConfigType.ts",
-        "hash": "16465012046885998049"
+        "hash": "18102635402269140814"
       },
       {
         "file": "src/lints/eslint/index.ts",
@@ -230,7 +229,7 @@
       },
       {
         "file": "src/lints/stylelint/getStylelintConfig.ts",
-        "hash": "18413862657398493633"
+        "hash": "15585828239716722017"
       },
       {
         "file": "src/lints/stylelint/getStylelintDocUrl.ts",

@@ -36,5 +36,6 @@
   "devDependencies": {
     "stylelint": "^16.8.1",
     "stylelint-scss": "^6.5.0"
-  }
+  },
+  "gitHead": "5e0377b5272059854dcff95524c3721f6d680e07"
 }
