@@ -83,9 +83,6 @@ importers:
       commander:
         specifier: ^6.2.1
         version: 6.2.1
-      commitlint-config-encode:
-        specifier: ^1.0.8
-        version: 1.0.8
       cross-spawn:
         specifier: ^7.0.3
         version: 7.0.3
@@ -98,9 +95,6 @@ importers:
       eslint-config-egg:
         specifier: ^10.0.0
         version: 10.0.0(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.29.1)(eslint@8.57.0))(eslint@8.57.0)(typescript@4.9.5)
-      eslint-config-encode:
-        specifier: ^1.0.8
-        version: 1.0.8
       eslint-config-prettier:
         specifier: ^8.3.0
         version: 8.10.0(eslint@8.57.0)
@@ -131,9 +125,18 @@ importers:
       fast-glob:
         specifier: ^3.2.11
         version: 3.3.2
+      frb-commitlint-config:
+        specifier: ^0.0.7
+        version: 0.0.7
+      frb-eslint-config:
+        specifier: ^0.0.7
+        version: 0.0.7
       frb-markdownlint-config:
         specifier: ^0.0.7
         version: 0.0.7(markdownlint@0.25.1)
+      frb-stylelint-config:
+        specifier: ^0.0.7
+        version: 0.0.7(@types/node@14.18.63)(stylelint-scss@4.7.0(stylelint@14.16.1))(stylelint@14.16.1)(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5))
       fs-extra:
         specifier: ^9.0.1
         version: 9.1.0
@@ -155,9 +158,6 @@ importers:
       markdownlint:
         specifier: ^0.25.1
         version: 0.25.1
-      markdownlint-config-encode:
-        specifier: ^1.0.8
-        version: 1.0.8(markdownlint@0.25.1)
       markdownlint-rule-helpers:
         specifier: ^0.13.0
         version: 0.13.0
@@ -173,9 +173,6 @@ importers:
       stylelint:
         specifier: ^14.3.0
         version: 14.16.1
-      stylelint-config-encode:
-        specifier: ^1.0.9
-        version: 1.0.9(stylelint-scss@4.7.0(stylelint@14.16.1))(stylelint@14.16.1)
       stylelint-scss:
         specifier: ^4.1.0
         version: 4.7.0(stylelint@14.16.1)
@@ -2282,9 +2279,6 @@ packages:
     resolution: {integrity: sha512-hRpmWIKgzd81vn0ydoWoyPoALEOnF4wt8yKD35Ib1D6XC2siLiYaiqfGkYrunuKdsXGwpBpHU3+9r+RVw2NZfA==}
     engines: {node: '>= 12.0.0'}
 
-  commitlint-config-encode@1.0.8:
-    resolution: {integrity: sha512-7Lw5PxnT+hMv3Dt+DiaT6A6Fv0wm7hn8fw2SaFUlD2Y7deSDD8ycXdD1GG5pPgZa662+lpiUu6NxbbMpxDSMpw==}
-
   common-ancestor-path@1.0.1:
     resolution: {integrity: sha512-L3sHRo1pXXEqX8VU28kfgUY+YGsk09hPqZiZmLacNib6XNTCM8ubYeT7ryXQw8asB1sKgcU5lkB7ONug08aB8w==}
 
@@ -2311,10 +2305,6 @@ packages:
   conventional-changelog-angular@7.0.0:
     resolution: {integrity: sha512-ROjNchA9LgfNMTTFSIWPzebCwOGFdgkEq45EnvvrmSLvCtAw0HSmrCs7/ty+wAeYUZyNay0YMUNYFTRL72PkBQ==}
     engines: {node: '>=16'}
-
-  conventional-changelog-conventionalcommits@4.6.3:
-    resolution: {integrity: sha512-LTTQV4fwOM4oLPad317V/QNQ1FY4Hju5qeBIM1uTHbrnCE+Eg4CdRZ3gO2pUeR+tzWdp80M2j3qFFEDWVqOV4g==}
-    engines: {node: '>=10'}
 
   conventional-changelog-conventionalcommits@8.0.0:
     resolution: {integrity: sha512-eOvlTO6OcySPyyyk8pKz2dP4jjElYunj9hn9/s0OB+gapTO8zwS9UQWrZ1pmF2hFs3vw1xhonOLGcGjy/zgsuA==}
@@ -2744,9 +2734,6 @@ packages:
     resolution: {integrity: sha512-CA0hs3cxvp0HfjWvBuU4wK3Zrw6SyfSZl4WWfvoV8IbI30VsVUWXdETVfXpMVsadXkMiJ0U37X8tICNSBIyAIw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  eslint-config-encode@1.0.8:
-    resolution: {integrity: sha512-2bl1ljL1azeq4MQPKHD8m/oo8Ly2oLr+g8i7F0le9f661JxQIblbw8pCNDacYvDVZ3/2K1OQPik/oiGvJ/0zPw==}
-
   eslint-config-prettier@8.10.0:
     resolution: {integrity: sha512-SM8AMJdeQqRYT9O9zguiruQZaN7+z+E4eAP9oiLNGKMtomwaB1E9dcgUD6ZAn/eQAb52USbvezbiljfZUhbJcg==}
     hasBin: true
@@ -3098,10 +3085,22 @@ packages:
     resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==}
     engines: {node: '>= 6'}
 
+  frb-commitlint-config@0.0.7:
+    resolution: {integrity: sha512-58SRjexeuNFLcwF8fJ+aoBeo4wRVAnAYXYga2iQoC4BOjZDRYKt8VL9euyMoztjY7zt8+HBMZzXKo5L5t6T/pA==}
+
+  frb-eslint-config@0.0.7:
+    resolution: {integrity: sha512-+NOZXcpK5gfDMuXlvAs55zAUvL3tWmlOofNGxcBUka+5Y/CubT7dO5YyGIg4t5t+ezLmuaqvByYaeUJhaq0Y6A==}
+
   frb-markdownlint-config@0.0.7:
     resolution: {integrity: sha512-Q6pAATSmZA0UEkJiRsmf+/Grnf6MtTu229/jWwpkZ6qdKlPedruPzltjbWfOBoUlwfZhf3dkP4kItd/8aCLN3g==}
     peerDependencies:
       markdownlint: ^0.28.1
+
+  frb-stylelint-config@0.0.7:
+    resolution: {integrity: sha512-bFdecwmqBRBeNEvCe7JXk2zLt85Hyx+zsij9M7mH7fMl3dOmCK4+jd728GJvOIuj/pU/OCSdv0aNpTKTM2XYBA==}
+    peerDependencies:
+      stylelint: '>=8.3.0'
+      stylelint-scss: '>=2.0.0'
 
   fromentries@1.3.2:
     resolution: {integrity: sha512-cHEpEQHUg0f8XdtZCc2ZAhrHzKzT0MrFUTcvx+hfxYu7rGMDc5SKoXFh+n4YigxsHXRzc6OrCshdR1bWH6HHyg==}
@@ -4304,11 +4303,6 @@ packages:
     resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
     hasBin: true
 
-  markdownlint-config-encode@1.0.8:
-    resolution: {integrity: sha512-IPj5WMxoCzHNgujvblNXl42MPnqwdgjDPPQAqoumVbsqOApe4OkQlb8ywWGITyepuB2xnlDgSM+uYi9M9GwaGw==}
-    peerDependencies:
-      markdownlint: ^0.28.1
-
   markdownlint-micromark@0.1.2:
     resolution: {integrity: sha512-jRxlQg8KpOfM2IbCL9RXM8ZiYWz2rv6DlZAnGv8ASJQpUh6byTBnEsbuMZ6T2/uIgntyf7SKg/mEaEBo1164fQ==}
     engines: {node: '>=14.18.0'}
@@ -5477,12 +5471,6 @@ packages:
 
   style-search@0.1.0:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
-
-  stylelint-config-encode@1.0.9:
-    resolution: {integrity: sha512-tp7+rB9UKKqksIrglKUaA4b93Zh/7QiL64lcthjn7ZYygcZMbdJ+f3mcvuVftAaNjXB9EeeD4HSxCp6lhUZl2g==}
-    peerDependencies:
-      stylelint: '>=8.3.0'
-      stylelint-scss: '>=2.0.0'
 
   stylelint-scss@4.7.0:
     resolution: {integrity: sha512-TSUgIeS0H3jqDZnby1UO1Qv3poi1N8wUYIJY6D1tuUq2MN3lwp/rITVo0wD+1SWTmRm0tNmGO0b7nKInnqF6Hg==}
@@ -7046,6 +7034,41 @@ snapshots:
       - supports-color
       - ts-node
       - utf-8-validate
+
+  '@jest/core@29.7.0(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5))':
+    dependencies:
+      '@jest/console': 29.7.0
+      '@jest/reporters': 29.7.0
+      '@jest/test-result': 29.7.0
+      '@jest/transform': 29.7.0
+      '@jest/types': 29.6.3
+      '@types/node': 14.18.63
+      ansi-escapes: 4.3.2
+      chalk: 4.1.2
+      ci-info: 3.9.0
+      exit: 0.1.2
+      graceful-fs: 4.2.11
+      jest-changed-files: 29.7.0
+      jest-config: 29.7.0(@types/node@14.18.63)(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5))
+      jest-haste-map: 29.7.0
+      jest-message-util: 29.7.0
+      jest-regex-util: 29.6.3
+      jest-resolve: 29.7.0
+      jest-resolve-dependencies: 29.7.0
+      jest-runner: 29.7.0
+      jest-runtime: 29.7.0
+      jest-snapshot: 29.7.0
+      jest-util: 29.7.0
+      jest-validate: 29.7.0
+      jest-watcher: 29.7.0
+      micromatch: 4.0.8
+      pretty-format: 29.7.0
+      slash: 3.0.0
+      strip-ansi: 6.0.1
+    transitivePeerDependencies:
+      - babel-plugin-macros
+      - supports-color
+      - ts-node
 
   '@jest/core@29.7.0(ts-node@10.9.2(@types/node@14.18.63)(typescript@5.5.4))':
     dependencies:
@@ -8737,10 +8760,6 @@ snapshots:
 
   comment-parser@1.3.0: {}
 
-  commitlint-config-encode@1.0.8:
-    dependencies:
-      conventional-changelog-conventionalcommits: 4.6.3
-
   common-ancestor-path@1.0.1: {}
 
   commondir@1.0.1: {}
@@ -8769,12 +8788,6 @@ snapshots:
   conventional-changelog-angular@7.0.0:
     dependencies:
       compare-func: 2.0.0
-
-  conventional-changelog-conventionalcommits@4.6.3:
-    dependencies:
-      compare-func: 2.0.0
-      lodash: 4.17.21
-      q: 1.5.1
 
   conventional-changelog-conventionalcommits@8.0.0:
     dependencies:
@@ -8913,6 +8926,21 @@ snapshots:
       parse-json: 5.2.0
     optionalDependencies:
       typescript: 5.5.4
+
+  create-jest@29.7.0(@types/node@14.18.63)(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5)):
+    dependencies:
+      '@jest/types': 29.6.3
+      chalk: 4.1.2
+      exit: 0.1.2
+      graceful-fs: 4.2.11
+      jest-config: 29.7.0(@types/node@14.18.63)(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5))
+      jest-util: 29.7.0
+      prompts: 2.4.2
+    transitivePeerDependencies:
+      - '@types/node'
+      - babel-plugin-macros
+      - supports-color
+      - ts-node
 
   create-jest@29.7.0(@types/node@14.18.63)(ts-node@10.9.2(@types/node@14.18.63)(typescript@5.5.4)):
     dependencies:
@@ -9330,8 +9358,6 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
       - typescript
-
-  eslint-config-encode@1.0.8: {}
 
   eslint-config-prettier@8.10.0(eslint@8.57.0):
     dependencies:
@@ -9841,9 +9867,25 @@ snapshots:
       combined-stream: 1.0.8
       mime-types: 2.1.35
 
+  frb-commitlint-config@0.0.7: {}
+
+  frb-eslint-config@0.0.7: {}
+
   frb-markdownlint-config@0.0.7(markdownlint@0.25.1):
     dependencies:
       markdownlint: 0.25.1
+
+  frb-stylelint-config@0.0.7(@types/node@14.18.63)(stylelint-scss@4.7.0(stylelint@14.16.1))(stylelint@14.16.1)(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5)):
+    dependencies:
+      jest: 29.7.0(@types/node@14.18.63)(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5))
+      stylelint: 14.16.1
+      stylelint-scss: 4.7.0(stylelint@14.16.1)
+    transitivePeerDependencies:
+      - '@types/node'
+      - babel-plugin-macros
+      - node-notifier
+      - supports-color
+      - ts-node
 
   fromentries@1.3.2: {}
 
@@ -10623,6 +10665,25 @@ snapshots:
       - ts-node
       - utf-8-validate
 
+  jest-cli@29.7.0(@types/node@14.18.63)(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5)):
+    dependencies:
+      '@jest/core': 29.7.0(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5))
+      '@jest/test-result': 29.7.0
+      '@jest/types': 29.6.3
+      chalk: 4.1.2
+      create-jest: 29.7.0(@types/node@14.18.63)(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5))
+      exit: 0.1.2
+      import-local: 3.2.0
+      jest-config: 29.7.0(@types/node@14.18.63)(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5))
+      jest-util: 29.7.0
+      jest-validate: 29.7.0
+      yargs: 17.7.2
+    transitivePeerDependencies:
+      - '@types/node'
+      - babel-plugin-macros
+      - supports-color
+      - ts-node
+
   jest-cli@29.7.0(@types/node@14.18.63)(ts-node@10.9.2(@types/node@14.18.63)(typescript@5.5.4)):
     dependencies:
       '@jest/core': 29.7.0(ts-node@10.9.2(@types/node@14.18.63)(typescript@5.5.4))
@@ -10694,6 +10755,37 @@ snapshots:
       - canvas
       - supports-color
       - utf-8-validate
+
+  jest-config@29.7.0(@types/node@14.18.63)(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5)):
+    dependencies:
+      '@babel/core': 7.25.2
+      '@jest/test-sequencer': 29.7.0
+      '@jest/types': 29.6.3
+      babel-jest: 29.7.0(@babel/core@7.25.2)
+      chalk: 4.1.2
+      ci-info: 3.9.0
+      deepmerge: 4.3.1
+      glob: 7.2.3
+      graceful-fs: 4.2.11
+      jest-circus: 29.7.0
+      jest-environment-node: 29.7.0
+      jest-get-type: 29.6.3
+      jest-regex-util: 29.6.3
+      jest-resolve: 29.7.0
+      jest-runner: 29.7.0
+      jest-util: 29.7.0
+      jest-validate: 29.7.0
+      micromatch: 4.0.8
+      parse-json: 5.2.0
+      pretty-format: 29.7.0
+      slash: 3.0.0
+      strip-json-comments: 3.1.1
+    optionalDependencies:
+      '@types/node': 14.18.63
+      ts-node: 10.9.2(@types/node@14.18.63)(typescript@4.9.5)
+    transitivePeerDependencies:
+      - babel-plugin-macros
+      - supports-color
 
   jest-config@29.7.0(@types/node@14.18.63)(ts-node@10.9.2(@types/node@14.18.63)(typescript@5.5.4)):
     dependencies:
@@ -11277,6 +11369,18 @@ snapshots:
       - ts-node
       - utf-8-validate
 
+  jest@29.7.0(@types/node@14.18.63)(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5)):
+    dependencies:
+      '@jest/core': 29.7.0(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5))
+      '@jest/types': 29.6.3
+      import-local: 3.2.0
+      jest-cli: 29.7.0(@types/node@14.18.63)(ts-node@10.9.2(@types/node@14.18.63)(typescript@4.9.5))
+    transitivePeerDependencies:
+      - '@types/node'
+      - babel-plugin-macros
+      - supports-color
+      - ts-node
+
   jest@29.7.0(@types/node@14.18.63)(ts-node@10.9.2(@types/node@14.18.63)(typescript@5.5.4)):
     dependencies:
       '@jest/core': 29.7.0(ts-node@10.9.2(@types/node@14.18.63)(typescript@5.5.4))
@@ -11698,10 +11802,6 @@ snapshots:
       mdurl: 2.0.0
       punycode.js: 2.3.1
       uc.micro: 2.1.0
-
-  markdownlint-config-encode@1.0.8(markdownlint@0.25.1):
-    dependencies:
-      markdownlint: 0.25.1
 
   markdownlint-micromark@0.1.2: {}
 
@@ -12961,11 +13061,6 @@ snapshots:
       through: 2.3.8
 
   style-search@0.1.0: {}
-
-  stylelint-config-encode@1.0.9(stylelint-scss@4.7.0(stylelint@14.16.1))(stylelint@14.16.1):
-    dependencies:
-      stylelint: 14.16.1
-      stylelint-scss: 4.7.0(stylelint@14.16.1)
 
   stylelint-scss@4.7.0(stylelint@14.16.1):
     dependencies:

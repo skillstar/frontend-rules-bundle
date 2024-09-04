@@ -42,7 +42,7 @@ export default defineConfig({
       },
       {
         text: '脚手架',
-        items: [{ text: 'frb-fe-lint', link: '/cli/frb-lint.md' }],
+        items: [{ text: 'frb-lint-cli', link: '/cli/frb-lint.md' }],
       },
     ],
 
