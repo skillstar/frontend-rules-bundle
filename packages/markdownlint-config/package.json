@@ -1,6 +1,6 @@
 {
   "name": "frb-markdownlint-config",
-  "version": "0.1.1",
+  "version": "0.1.2-alpha.2+ed32b3c",
   "description": "文档规范",
   "author": "Anson",
   "homepage": "https://github.com/yangsheng8/frontend-rules-bundle#readme",
@@ -22,5 +22,5 @@
   "peerDependencies": {
     "markdownlint": "^0.28.1"
   },
-  "gitHead": "d786013adf3ce2c8d8c7479fd7c36e5d79845617"
+  "gitHead": "ed32b3c70fd3218ac1ee995b3ecaec6ba65bfc97"
 }

@@ -1,6 +1,6 @@
 {
   "name": "frb-eslint-plugin",
-  "version": "0.1.1",
+  "version": "0.1.2-alpha.2+ed32b3c",
   "description": "自定义eslint插件",
   "author": "yangsheng8 <344182792@qq.com>",
   "homepage": "https://github.com/yangsheng8/frontend-rules-bundle#readme",
@@ -33,5 +33,5 @@
     "jest": "^29.7.0",
     "require-all": "^3.0.0"
   },
-  "gitHead": "d786013adf3ce2c8d8c7479fd7c36e5d79845617"
+  "gitHead": "ed32b3c70fd3218ac1ee995b3ecaec6ba65bfc97"
 }
