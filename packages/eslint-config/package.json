@@ -1,6 +1,6 @@
 {
   "name": "frb-eslint-config",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "FRB的 JavaScript TypeScript Node 规范",
   "keywords": [
     "frontend-rules-bundle",
@@ -35,5 +35,5 @@
   "bugs": {
     "url": "https://github.com/yangsheng8/frontend-rules-bundle/issues"
   },
-  "gitHead": "8744e96889b9f9d3ddb76ce454f41d5fb0264e5a"
+  "gitHead": "63f204c12c8944f3584f708bb0267078ac4c85f2"
 }
