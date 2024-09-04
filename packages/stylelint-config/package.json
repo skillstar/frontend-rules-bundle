@@ -1,6 +1,6 @@
 {
   "name": "frb-stylelint-config",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "index.js",
   "keywords": [
     "style",
@@ -37,5 +37,5 @@
     "stylelint": "^16.8.1",
     "stylelint-scss": "^6.5.0"
   },
-  "gitHead": "453920f7d12c534bc980a567b07007f01d5f6b50"
+  "gitHead": "f352b5e71698b7ba357532df1615cbba82aa7846"
 }
