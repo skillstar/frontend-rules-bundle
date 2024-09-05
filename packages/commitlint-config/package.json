@@ -1,6 +1,6 @@
 {
   "name": "frb-commitlint-config",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "Git规范",
   "keywords": [
     "commit",
