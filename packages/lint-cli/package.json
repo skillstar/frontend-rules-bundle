@@ -1,6 +1,6 @@
 {
   "name": "frb-lint-cli",
-  "version": "0.0.31",
+  "version": "0.0.32",
   "description": "FRB前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
@@ -94,5 +94,6 @@
   },
   "bugs": {
     "url": "https://github.com/yangsheng8/frontend-rules-bundle/issues"
-  }
+  },
+  "gitHead": "f4af2ceb97284af4e86788c11269908f1bb3ace1"
 }

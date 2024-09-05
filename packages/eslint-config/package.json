@@ -1,6 +1,6 @@
 {
   "name": "frb-eslint-config",
-  "version": "0.0.31",
+  "version": "0.0.32",
   "description": "FRB的 JavaScript TypeScript Node 规范",
   "keywords": [
     "frontend-rules-bundle",
@@ -48,5 +48,5 @@
     "typescript": "^4.1.2",
     "vue-eslint-parser": "^7.3.0"
   },
-  "gitHead": "aa5683d387bb38069b2786dc8c3840e3defb6733"
+  "gitHead": "f4af2ceb97284af4e86788c11269908f1bb3ace1"
 }
