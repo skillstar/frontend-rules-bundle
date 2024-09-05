@@ -1,6 +1,6 @@
 {
   "name": "frb-lint-cli",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "description": "FRB前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
