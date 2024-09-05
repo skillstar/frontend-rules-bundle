@@ -1,0 +1,263 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.6.5",
+  "deps": {
+    "@babel/core": "^7.16.0",
+    "@babel/eslint-parser": "^7.16.3",
+    "@babel/preset-react": "^7.16.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.7.0",
+    "eslint-config-egg": "^10.0.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-jsx-plus": "^0.1.0",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-vue": "^7.3.0",
+    "lodash": "^4.17.21",
+    "mocha": "^8.2.1",
+    "typescript": "^4.1.2",
+    "vue-eslint-parser": "^7.3.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "16522721804836208583"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "15256886108328177120"
+      },
+      {
+        "file": ".eslintrc.js",
+        "hash": "3700980565922405948"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1873873264344409291"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "3823531530578125127"
+      },
+      {
+        "file": "README.md",
+        "hash": "3096952046281760929"
+      },
+      {
+        "file": "__tests__/fixtures/es5.js",
+        "hash": "3389571530709933580"
+      },
+      {
+        "file": "__tests__/fixtures/index.js",
+        "hash": "14572471604172159007"
+      },
+      {
+        "file": "__tests__/fixtures/node.js",
+        "hash": "8180984267842822605"
+      },
+      {
+        "file": "__tests__/fixtures/react-display-name.js",
+        "hash": "11142100632805174339"
+      },
+      {
+        "file": "__tests__/fixtures/react.jsx",
+        "hash": "2655610004162746679"
+      },
+      {
+        "file": "__tests__/fixtures/ts-import-a.ts",
+        "hash": "10627221725070008671"
+      },
+      {
+        "file": "__tests__/fixtures/ts-import-b.ts",
+        "hash": "6983728770819401098"
+      },
+      {
+        "file": "__tests__/fixtures/ts-node.ts",
+        "hash": "1167284519914166883"
+      },
+      {
+        "file": "__tests__/fixtures/ts-react.tsx",
+        "hash": "8287650567008834238"
+      },
+      {
+        "file": "__tests__/fixtures/ts-vue.vue",
+        "hash": "1291157011730475544"
+      },
+      {
+        "file": "__tests__/fixtures/ts.ts",
+        "hash": "14354756616375302327"
+      },
+      {
+        "file": "__tests__/fixtures/tsconfig.json",
+        "hash": "9762051661086579638"
+      },
+      {
+        "file": "__tests__/fixtures/use-babel-eslint.jsx",
+        "hash": "16515694385113952678"
+      },
+      {
+        "file": "__tests__/fixtures/vue.vue",
+        "hash": "16791640690975397516"
+      },
+      {
+        "file": "__tests__/use-babel-eslint.test.js",
+        "hash": "7295196707580218891"
+      },
+      {
+        "file": "__tests__/validate-js-configs.test.js",
+        "hash": "2903024796143042863"
+      },
+      {
+        "file": "__tests__/validate-ts-configs.test.js",
+        "hash": "8419854494359366567"
+      },
+      {
+        "file": "es5.js",
+        "hash": "2857648931066280294"
+      },
+      {
+        "file": "essential/es5.js",
+        "hash": "2932260201066254155"
+      },
+      {
+        "file": "essential/index.js",
+        "hash": "15218942901213655521"
+      },
+      {
+        "file": "essential/react.js",
+        "hash": "6083396776657852721"
+      },
+      {
+        "file": "essential/rules/blacklist.js",
+        "hash": "2800610337645316405"
+      },
+      {
+        "file": "essential/rules/es6-blacklist.js",
+        "hash": "3016297416073530736"
+      },
+      {
+        "file": "essential/rules/set-style-to-warn.js",
+        "hash": "10064447648228258841"
+      },
+      {
+        "file": "essential/rules/ts-blacklist.js",
+        "hash": "3510329125343407581"
+      },
+      {
+        "file": "essential/typescript/index.js",
+        "hash": "6897745884834362672"
+      },
+      {
+        "file": "essential/typescript/react.js",
+        "hash": "7625296408266043112"
+      },
+      {
+        "file": "essential/typescript/vue.js",
+        "hash": "18383853726709679630"
+      },
+      {
+        "file": "essential/vue.js",
+        "hash": "6293927203582946236"
+      },
+      {
+        "file": "index.js",
+        "hash": "10525791436341141487"
+      },
+      {
+        "file": "jsx-a11y.js",
+        "hash": "16162673119355319466"
+      },
+      {
+        "file": "node.js",
+        "hash": "10242714738489146137"
+      },
+      {
+        "file": "package.json",
+        "hash": "7261070205560472306"
+      },
+      {
+        "file": "react.js",
+        "hash": "6882437014166266369"
+      },
+      {
+        "file": "rules/base/best-practices.js",
+        "hash": "14804822096879431313"
+      },
+      {
+        "file": "rules/base/es6.js",
+        "hash": "16768037848809350678"
+      },
+      {
+        "file": "rules/base/possible-errors.js",
+        "hash": "8939312483479495888"
+      },
+      {
+        "file": "rules/base/strict.js",
+        "hash": "13810626857171766184"
+      },
+      {
+        "file": "rules/base/style.js",
+        "hash": "15242671438191478899"
+      },
+      {
+        "file": "rules/base/variables.js",
+        "hash": "6705913276671659786"
+      },
+      {
+        "file": "rules/es5.js",
+        "hash": "907919911973836814"
+      },
+      {
+        "file": "rules/imports.js",
+        "hash": "11822719564304050515"
+      },
+      {
+        "file": "rules/jsx-a11y.js",
+        "hash": "18110007357247722545"
+      },
+      {
+        "file": "rules/node.js",
+        "hash": "1996484406236742911"
+      },
+      {
+        "file": "rules/react.js",
+        "hash": "1112427642696867035"
+      },
+      {
+        "file": "rules/typescript.js",
+        "hash": "2956221218130576982"
+      },
+      {
+        "file": "rules/vue.js",
+        "hash": "5688774317279556435"
+      },
+      {
+        "file": "typescript/index.js",
+        "hash": "17492031087027515057"
+      },
+      {
+        "file": "typescript/node.js",
+        "hash": "15566298877221256798"
+      },
+      {
+        "file": "typescript/react.js",
+        "hash": "4175560313164205909"
+      },
+      {
+        "file": "typescript/vue.js",
+        "hash": "4671206506893153929"
+      },
+      {
+        "file": "vue.js",
+        "hash": "6165435466053239642"
+      }
+    ]
+  }
+}

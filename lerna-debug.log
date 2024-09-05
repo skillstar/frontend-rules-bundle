@@ -1,19 +1,9 @@
-0 silly argv {
-0 silly argv   _: [ 'create' ],
-0 silly argv   lernaVersion: '8.1.3',
-0 silly argv   '$0': 'E:\\npm\\node_modules\\lerna\\dist\\cli.js',
-0 silly argv   name: 'frb-lint-cli'
-0 silly argv }
-1 notice cli v8.1.3
-2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*"]
-3 verbose rootPath D:\fight2023-2\开发脚手架\frontend-rules-bundle
-4 error Error: canceled
-4 error     at Interface.<anonymous> (D:\fight2023-2\开发脚手架\frontend-rules-bundle\node_modules\.pnpm\read@3.0.1\node_modules\read\dist\commonjs\read.js:89:21)
-4 error     at Interface.emit (node:events:520:28)
-4 error     at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1125:18)
-4 error     at ReadStream.onkeypress (node:internal/readline/interface:264:20)
-4 error     at ReadStream.emit (node:events:520:28)
-4 error     at emitKeys (node:internal/readline/utils:370:14)
-4 error     at emitKeys.next (<anonymous>)
-4 error     at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
-4 error     at ReadStream.emit (node:events:520:28)
+17 error Error: Command failed with exit code 1: git remote update
+17 error fatal: unable to access 'https://github.com/yangsheng8/frontend-rules-bundle.git/': OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+17 error     at makeError (D:\fight2023-2\开发脚手架\frontend-rules-bundle\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
+17 error     at module.exports.sync (D:\fight2023-2\开发脚手架\frontend-rules-bundle\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:186:17)
+17 error     at Object.execSync (D:\fight2023-2\开发脚手架\frontend-rules-bundle\node_modules\.pnpm\lerna@8.1.8_encoding@0.1.13\node_modules\lerna\dist\index.js:1579:31)
+17 error     at updateRemote (D:\fight2023-2\开发脚手架\frontend-rules-bundle\node_modules\.pnpm\lerna@8.1.8_encoding@0.1.13\node_modules\lerna\dist\index.js:9196:18)
+17 error     at isBehindUpstream (D:\fight2023-2\开发脚手架\frontend-rules-bundle\node_modules\.pnpm\lerna@8.1.8_encoding@0.1.13\node_modules\lerna\dist\index.js:9186:3)
+17 error     at VersionCommand.initialize (D:\fight2023-2\开发脚手架\frontend-rules-bundle\node_modules\.pnpm\lerna@8.1.8_encoding@0.1.13\node_modules\lerna\dist\index.js:9477:57)
+17 error     at VersionCommand.runCommand (D:\fight2023-2\开发脚手架\frontend-rules-bundle\node_modules\.pnpm\lerna@8.1.8_encoding@0.1.13\node_modules\lerna\dist\index.js:3296:36)

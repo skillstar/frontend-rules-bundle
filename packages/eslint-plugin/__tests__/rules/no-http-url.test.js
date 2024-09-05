@@ -1,6 +1,6 @@
 'use strict';
 
-const rule = require('../../lib/rules/no-http-url.js');
+const rule = require('../../rules/no-http-url.js');
 const { RuleTester } = require('eslint');
 
 const ruleTester = new RuleTester({
