@@ -1,6 +1,6 @@
 {
   "name": "frb-lint-cli",
-  "version": "0.0.24",
+  "version": "0.0.22",
   "description": "FRB前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
@@ -66,14 +66,14 @@
     "eslint-plugin-vue": "^7.3.0",
     "execa": "^5.0.0",
     "fast-glob": "^3.2.11",
-    "frb-markdownlint-config": "^0.0.20",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
     "husky": "^3.1.0",
     "inquirer": "^7.3.3",
     "is-docker": "^2.1.1",
     "lodash": "^4.17.20",
-    "markdownlint": "^0.28.1",
+    "markdownlint": "^0.25.1",
+    "markdownlint-config-encode": "^1.0.8",
     "markdownlint-rule-helpers": "^0.13.0",
     "ora": "^5.1.0",
     "prettier": "^2.2.1",
@@ -94,6 +94,5 @@
   },
   "bugs": {
     "url": "https://github.com/yangsheng8/frontend-rules-bundle/issues"
-  },
-  "gitHead": "a538fdddb03004ff58061d36bf074a3af5d507a6"
+  }
 }
