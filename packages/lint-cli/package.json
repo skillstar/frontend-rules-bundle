@@ -66,7 +66,7 @@
     "eslint-plugin-vue": "^7.3.0",
     "execa": "^5.0.0",
     "fast-glob": "^3.2.11",
-    "frb-markdownlint-config": "^0.0.21",
+    "frb-markdownlint-config": "^0.0.20",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
     "husky": "^3.1.0",
@@ -95,5 +95,5 @@
   "bugs": {
     "url": "https://github.com/yangsheng8/frontend-rules-bundle/issues"
   },
-  "gitHead": "88242f036f413159c185bae3c223029d3118313e"
+  "gitHead": "a538fdddb03004ff58061d36bf074a3af5d507a6"
 }
