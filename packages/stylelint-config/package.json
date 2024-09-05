@@ -1,6 +1,6 @@
 {
   "name": "frb-stylelint-config",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "main": "index.js",
   "keywords": [
     "style",
