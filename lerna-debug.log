@@ -1,5 +1,5 @@
 17 error Error: Command failed with exit code 1: git remote update
-17 error fatal: unable to access 'https://github.com/yangsheng8/frontend-rules-bundle.git/': OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+17 error fatal: unable to access 'https://github.com/yangsheng8/frontend-rules-bundle.git/': Recv failure: Connection was reset
 17 error     at makeError (D:\fight2023-2\开发脚手架\frontend-rules-bundle\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
 17 error     at module.exports.sync (D:\fight2023-2\开发脚手架\frontend-rules-bundle\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:186:17)
 17 error     at Object.execSync (D:\fight2023-2\开发脚手架\frontend-rules-bundle\node_modules\.pnpm\lerna@8.1.8_encoding@0.1.13\node_modules\lerna\dist\index.js:1579:31)
