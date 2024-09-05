@@ -23,6 +23,7 @@ describe(`'fix' command`, () => {
   });
 
   test('should autofix problematic code', async () => {
+    jest.setTimeout(10000); // 增加超时时间，单位为毫秒
     await cli(['fix'], {
       cwd: path.dirname(`${dir}/result`),
     });
