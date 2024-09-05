@@ -1,7 +1,7 @@
 import path from 'path';
 import fs from 'fs-extra';
 import glob from 'glob';
-import { confirm } from '@inquirer/prompts';
+import inquirer from 'inquirer';
 import log from './log';
 import { PKG_NAME } from './constants';
 import type { PKG } from '../types';
@@ -93,9 +93,12 @@ export default async (cwd: string, rewriteConfig?: boolean) => {
     }
 
     if (typeof rewriteConfig === 'undefined') {
-     const isOverWrite = await confirm({
-        message: '请确认是否继续：'
+      const { isOverWrite } = await inquirer.prompt({
+        type: 'confirm',
+        name: 'isOverWrite',
+        message: '请确认是否继续：',
       });
+
       if (!isOverWrite) process.exit(0);
     } else if (!reWriteConfig) {
       process.exit(0);

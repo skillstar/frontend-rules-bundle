@@ -1,6 +1,6 @@
 import path from 'path';
 import fs from 'fs-extra';
-import { rawlist, confirm } from '@inquirer/prompts'; //交互式问答
+import inquirer from 'inquirer';
 import spawn from 'cross-spawn';
 import update from './update';
 import npmType from '../utils/npm-type';
@@ -16,7 +16,9 @@ let step = 0;
  * 选择项目语言和框架
  */
 const chooseEslintType = async (): Promise<string> => {
-  const type = await rawlist({
+  const { type } = await inquirer.prompt({
+    type: 'list',
+    name: 'type',
     message: `Step ${++step}. 请选择项目的语言（JS/TS）和框架（React/Vue）类型：`,
     choices: PROJECT_TYPES,
   });
@@ -29,7 +31,9 @@ const chooseEslintType = async (): Promise<string> => {
  * @param defaultValue
  */
 const chooseEnableStylelint = async (defaultValue: boolean): Promise<boolean> => {
-  const enable = await confirm({
+  const { enable } = await inquirer.prompt({
+    type: 'confirm',
+    name: 'enable',
     message: `Step ${++step}. 是否需要使用 stylelint（若没有样式文件则不需要）：`,
     default: defaultValue,
   });
@@ -41,7 +45,9 @@ const chooseEnableStylelint = async (defaultValue: boolean): Promise<boolean> =>
  * 选择是否启用 markdownlint
  */
 const chooseEnableMarkdownLint = async (): Promise<boolean> => {
-  const enable = await confirm({
+  const { enable } = await inquirer.prompt({
+    type: 'confirm',
+    name: 'enable',
     message: `Step ${++step}. 是否需要使用 markdownlint（若没有 Markdown 文件则不需要）：`,
     default: true,
   });
@@ -53,7 +59,9 @@ const chooseEnableMarkdownLint = async (): Promise<boolean> => {
  * 选择是否启用 prettier
  */
 const chooseEnablePrettier = async (): Promise<boolean> => {
-  const enable = await confirm({
+  const { enable } = await inquirer.prompt({
+    type: 'confirm',
+    name: 'enable',
     message: `Step ${++step}. 是否需要使用 Prettier 格式化代码：`,
     default: true,
   });
@@ -115,14 +123,10 @@ export default async (options: InitOptions) => {
     pkg = await conflictResolve(cwd, options.rewriteConfig);
     log.success(`Step ${step}. 已完成项目依赖和配置冲突检查处理 :D`);
 
-    if(!disableNpmInstall){
+    if (!disableNpmInstall) {
       log.info(`Step ${++step}. 安装依赖`);
       const npm = await npmType;
-      spawn.sync(
-        npm,
-        ['i', '-D', PKG_NAME],
-        { stdio: 'inherit', cwd },
-      );
+      spawn.sync(npm, ['i', '-D', PKG_NAME], { stdio: 'inherit', cwd });
       log.success(`Step ${step}. 安装依赖成功 :D`);
     }
   }
