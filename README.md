@@ -77,4 +77,3 @@ pnpm husky install
 
 -   **前端编码规范工程化** <https://yangsheng8.github.io/frontend-rules-bundle/>
 -   **GitHub**: <https://github.com/yangsheng8/frontend-rules-bundle>
-

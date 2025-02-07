@@ -8,7 +8,7 @@
   ],
   "description": "CSS规范",
   "author": "Anson",
-  "homepage": "https://github.com/yangsheng8/frontend-rules-bundle#readme",
+  "homepage": "https://github.com/skillstar/frontend-rules-bundle#readme",
   "license": "ISC",
   "peerDependencies": {
     "stylelint": ">=8.3.0",
@@ -22,13 +22,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yangsheng8/frontend-rules-bundle.git"
+    "url": "git+https://github.com/skillstar/frontend-rules-bundle.git"
   },
   "scripts": {
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
   },
   "bugs": {
-    "url": "https://github.com/yangsheng8/frontend-rules-bundle/issues"
+    "url": "https://github.com/skillstar/frontend-rules-bundle/issues"
   },
   "dependencies": {
     "jest": "^29.7.0"

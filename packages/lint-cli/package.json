@@ -82,18 +82,17 @@
     "stylelint-config-encode": "^1.0.9",
     "stylelint-scss": "^4.1.0",
     "terminal-link": "^2.1.1",
-    "text-table": "^0.2.0",
-    "vue-eslint-parser": "^7.3.0"
+    "text-table": "^0.2.0"
   },
-  "author": "yangsheng8 <344182792@qq.com>",
-  "homepage": "https://github.com/yangsheng8/frontend-rules-bundle#readme",
+  "author": "Anson",
+  "homepage": "https://github.com/skillstar/frontend-rules-bundle#readme",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yangsheng8/frontend-rules-bundle.git"
+    "url": "git+https://github.com/skillstar/frontend-rules-bundle.git"
   },
   "bugs": {
-    "url": "https://github.com/yangsheng8/frontend-rules-bundle/issues"
+    "url": "https://github.com/skillstar/frontend-rules-bundle/issues"
   },
   "gitHead": "d6b12ea2a1a132aa99f9d7e9496c056d3137459f"
 }

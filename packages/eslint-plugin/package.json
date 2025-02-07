@@ -2,8 +2,8 @@
   "name": "frb-eslint-plugin",
   "version": "0.0.35",
   "description": "自定义eslint插件",
-  "author": "yangsheng8 <344182792@qq.com>",
-  "homepage": "https://github.com/yangsheng8/frontend-rules-bundle#readme",
+  "author": "Anson",
+  "homepage": "https://github.com/skillstar/frontend-rules-bundle#readme",
   "license": "ISC",
   "main": "index.js",
   "directories": {
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yangsheng8/frontend-rules-bundle.git"
+    "url": "git+https://github.com/skillstar/frontend-rules-bundle.git"
   },
   "scripts": {
     "test": "jest",
     "prepublishOnly": "npm run test"
   },
   "bugs": {
-    "url": "https://github.com/yangsheng8/frontend-rules-bundle/issues"
+    "url": "https://github.com/skillstar/frontend-rules-bundle/issues"
   },
   "devDependencies": {
     "eslint": "^9.9.0",

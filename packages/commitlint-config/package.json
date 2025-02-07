@@ -7,7 +7,7 @@
     "lint"
   ],
   "author": "Anson",
-  "homepage": "https://github.com/yangsheng8/frontend-rules-bundle#readme",
+  "homepage": "https://github.com/skillstar/frontend-rules-bundle#readme",
   "license": "ISC",
   "main": "index.js",
   "directories": {
@@ -21,10 +21,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yangsheng8/frontend-rules-bundle.git"
+    "url": "git+https://github.com/skillstar/frontend-rules-bundle.git"
   },
   "bugs": {
-    "url": "https://github.com/yangsheng8/frontend-rules-bundle/issues"
+    "url": "https://github.com/skillstar/frontend-rules-bundle/issues"
   },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^8.0.0"
