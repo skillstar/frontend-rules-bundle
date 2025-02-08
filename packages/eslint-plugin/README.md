@@ -1,11 +1,11 @@
-# `eslint-plugin`
+# `@frbundle/eslint-plugin`
 
 ## 安装
 
 除了本包，你需要同时安装 [ESlint](https://eslint.org/)
 
 ```shell
-$ npm install frb-eslint-plugin eslint --save-dev
+$ npm install @frbundle/eslint-plugin eslint --save-dev
 ```
 
 ## 使用
@@ -17,7 +17,7 @@ $ npm install frb-eslint-plugin eslint --save-dev
 module.exports = {
   plugin: ['frb-eslint-config'],
   rules: {
-    'frb-eslint-plugin/no-secret-info': 'error',
+    '@frbundle/eslint-plugin/no-secret-info': 'error',
   },
 };
 ```
@@ -27,7 +27,7 @@ module.exports = {
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: 'plugin:frb-eslint-plugin/recommended',
+  extends: 'plugin:@frbundle/eslint-plugin/recommended',
 };
 ```
 

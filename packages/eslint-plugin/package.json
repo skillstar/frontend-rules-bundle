@@ -1,5 +1,5 @@
 {
-  "name": "frb-eslint-plugin",
+  "name": "@frbundle/eslint-plugin",
   "version": "0.0.35",
   "description": "自定义eslint插件",
   "author": "Anson",
