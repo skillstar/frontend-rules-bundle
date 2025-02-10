@@ -106,7 +106,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yangsheng8/frontend-rules-bundle' }
+      { icon: 'github', link: 'https://github.com/skillstar/frontend-rules-bundle' }
     ],
      // 设置搜索框的样式
      search: {
@@ -129,7 +129,7 @@ export default defineConfig({
       },
     },
     footer: {
-      message: 'Released under the <a href="https://github.com/yangsheng8/frontend-rules-bundle">Github</a>.',
+      message: 'Released under the <a href="https://github.com/skillstar/frontend-rules-bundle">Github</a>.',
       copyright: 'Copyright@ 2023-present Anson Young '
     }
   },
