@@ -1,5 +1,5 @@
 {
-  "name": "frb-stylelint-config",
+  "name": "@frbundle/stylelint-config",
   "version": "0.0.35",
   "main": "index.js",
   "keywords": [

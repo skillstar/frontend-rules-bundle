@@ -1,4 +1,4 @@
-# `markdownlint-config`
+# `@frbundle/markdownlint-config`
 
 > 文档 规范
 
@@ -9,7 +9,7 @@
 需要先行安装 [markdownlint](https://www.npmjs.com/package/markdownlint)：
 
 ```bash
-npm install frb-markdownlint-config markdownlint --save-dev
+npm install @frbundle/markdownlint-config markdownlint --save-dev
 ```
 
 ## 使用
@@ -18,6 +18,6 @@ npm install frb-markdownlint-config markdownlint --save-dev
 
 ```json
 {
-	"extends": "frb-markdownlint-config"
+	"extends": "@frbundle/markdownlint-config"
 }
 ```

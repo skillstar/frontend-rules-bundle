@@ -1,5 +1,5 @@
 {
-  "name": "frb-commitlint-config",
+  "name": "@frbundle/commitlint-config",
   "version": "0.0.35",
   "description": "Git规范",
   "keywords": [

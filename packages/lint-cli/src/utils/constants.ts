@@ -26,11 +26,11 @@ export const PKG_VERSION: string = pkg.version;
  */
 export const PROJECT_TYPES: Array<{ name: string; value: string }> = [
   {
-    name: '未使用 React、Vue、Node.js 的项目（JavaScript）',
+    name: '未使用 React、Node.js 的项目（JavaScript）',
     value: 'index',
   },
   {
-    name: '未使用 React、Vue、Node.js 的项目（TypeScript）',
+    name: '未使用 React、Node.js 的项目（TypeScript）',
     value: 'typescript',
   },
   {
@@ -50,14 +50,6 @@ export const PROJECT_TYPES: Array<{ name: string; value: string }> = [
     value: 'typescript/rax',
   },
   {
-    name: 'Vue 项目（JavaScript）',
-    value: 'vue',
-  },
-  {
-    name: 'Vue 项目（TypeScript）',
-    value: 'typescript/vue',
-  },
-  {
     name: 'Node.js 项目（JavaScript）',
     value: 'node',
   },
@@ -74,7 +66,7 @@ export const PROJECT_TYPES: Array<{ name: string; value: string }> = [
 /**
  * eslint 扫描文件扩展名
  */
-export const ESLINT_FILE_EXT: string[] = ['.js', '.jsx', '.ts', '.tsx', '.vue'];
+export const ESLINT_FILE_EXT: string[] = ['.js', '.jsx', '.ts', '.tsx'];
 
 /**
  * eslint 扫描忽略的文件或文件目录
