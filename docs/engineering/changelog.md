@@ -1,5 +1,5 @@
 ---
-title: CHANGELOG 规范
+title: 'CHANGELOG 规范'
 categories:
     - 工程规范
 tags:

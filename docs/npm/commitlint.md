@@ -1,5 +1,5 @@
 ---
-title: @frbundle/commitlint-config
+title: '@frbundle/commitlint-config'
 categories:
   - 工程规范
 tags:

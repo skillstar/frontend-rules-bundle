@@ -1,5 +1,5 @@
 ---
-title: @frbundle/eslint-config
+title: '@frbundle/eslint-config'
 categories:
   - 工程规范
 tags:

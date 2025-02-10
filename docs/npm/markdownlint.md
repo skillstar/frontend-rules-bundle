@@ -1,5 +1,5 @@
 ---
-title: @frbundle/markdownlint-config
+title: '@frbundle/markdownlint-config'
 categories:
   - 工程规范
 tags:

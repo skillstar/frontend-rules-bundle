@@ -1,5 +1,5 @@
 ---
-title: @frbundle/stylelint-config
+title: '@frbundle/stylelint-config'
 categories:
   - 工程规范
 tags:

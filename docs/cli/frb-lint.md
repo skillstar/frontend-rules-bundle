@@ -1,11 +1,11 @@
 ---
-title: @frbundle/lint
+title: '@frbundle/lint-cli'
 categories:
   - 脚手架规范
 tags:
   - 脚手架规范
 author:
-  name: Anson
+  name: 'Anson'
   link: https://github.com/skillstar/frontend-rules-bundle
 ---
 
