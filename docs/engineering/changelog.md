@@ -6,7 +6,7 @@ tags:
     - 工程规范
 author:
     name: Anson
-    link: https://github.com/yangsheng8/frontend-rules-bundle
+    link: https://github.com/skillstar/frontend-rules-bundle
 ---
 
 # CHANGELOG 规范

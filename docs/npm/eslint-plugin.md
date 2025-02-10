@@ -1,20 +1,20 @@
 ---
-title: frb-eslint-plugin
+title: @frbundle/eslint-plugin
 categories:
   - 工程规范
 tags:
   - 工程规范
 author:
   name: Anson
-  link: https://github.com/yangsheng8/frontend-rules-bundle
+  link: https://github.com/skillstar/frontend-rules-bundle
 ---
 
-# frb-eslint-plugin
+# @frbundle/eslint-plugin
 
 除了本包，你需要同时安装 [ESlint](https://eslint.org/)
 
 ```shell
-$ npm install frb-eslint-plugin eslint --save-dev
+$ npm install @frbundle/eslint-plugin eslint --save-dev
 ```
 
 ## 使用
@@ -24,9 +24,9 @@ $ npm install frb-eslint-plugin eslint --save-dev
 ```js
 // .eslintrc.js
 module.exports = {
-  plugin: ['frb-eslint-config'],
+  plugin: ['@frbundle/eslint-config'],
   rules: {
-    'frb-eslint-plugin/no-secret-info': 'error',
+    '@frbundle/eslint-plugin/no-secret-info': 'error',
   },
 };
 ```
@@ -36,7 +36,7 @@ module.exports = {
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: 'plugin:frb-eslint-plugin/recommended',
+  extends: 'plugin:@frbundle/eslint-plugin/recommended',
 };
 ```
 

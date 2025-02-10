@@ -1,18 +1,18 @@
 ---
-title: frb-commitlint-config
+title: @frbundle/commitlint-config
 categories:
   - 工程规范
 tags:
   - 工程规范
 author:
   name: Anson
-  link: https://github.com/yangsheng8/frontend-rules-bundle
+  link: https://github.com/skillstar/frontend-rules-bundle
 ---
 
-# frb-commitlint-config
+# @frbundle/commitlint-config
 
 :::tip
-FRB-Git 规范
+@frbundle/Git 规范
 :::
 
 支持配套的 [commitlint 配置](https://commitlint.js.org/#/concepts-shareable-config)，用于对 `git commit message` 进行校验。
@@ -22,7 +22,7 @@ FRB-Git 规范
 使用时，需要安装 [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli)：
 
 ```bash
-npm install frb-commitlint-config @commitlint/cli --save-dev
+npm install @frbundle/commitlint-config @commitlint/cli --save-dev
 ```
 
 ## 使用
@@ -31,7 +31,7 @@ npm install frb-commitlint-config @commitlint/cli --save-dev
 
 ```javascript
 module.exports = {
-  extends: ['frb-commitlint-config'],
+  extends: ['@frbundle/commitlint-config'],
 };
 ```
 

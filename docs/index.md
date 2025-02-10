@@ -39,11 +39,11 @@ features:
 
 | 规约 | Lint 工具 | NPM包 |
 | -------- | -------- | -------- |
-| JavaScript 编码规范 <br/> TypeScript 编码规范  <br/> Node 编码规范   |  [ESLint](https://eslint.org/)   | [frb-eslint-config](https://www.npmjs.com/package/frb-eslint-config) |
-| CSS 编码规范     |  [stylelint](https://stylelint.io/)  | [frb-stylelint-config](https://www.npmjs.com/package/frb-stylelint-config) |
-| Git 规范    |  [commitlint](https://commitlint.js.org/#/)  | [frb-commitlint-config](https://www.npmjs.com/package/frb-commitlint-config) |
-| 文档规范     |  [markdownlint](https://github.com/DavidAnson/markdownlint)  | [frb-markdownlint-config](https://www.npmjs.com/package/frb-markdownlint-config) |
+| JavaScript 编码规范 <br/> TypeScript 编码规范  <br/> Node 编码规范   |  [ESLint](https://eslint.org/)   | [@frbundle/eslint-config](https://www.npmjs.com/package/@frbundle/eslint-config) |
+| CSS 编码规范     |  [stylelint](https://stylelint.io/)  | [@frbundle/stylelint-config](https://www.npmjs.com/package/@frbundle/stylelint-config) |
+| Git 规范    |  [commitlint](https://commitlint.js.org/#/)  | [@frbundle/commitlint-config](https://www.npmjs.com/package/@frbundle/commitlint-config) |
+| 文档规范     |  [markdownlint](https://github.com/DavidAnson/markdownlint)  | [@frbundle/markdownlint-config](https://www.npmjs.com/package/@frbundle/markdownlint-config) |
 
-[frb-spec-cli](https://www.npmjs.com/package/frb-spec-cli) 收敛屏蔽了上述依赖和配置细节，提供简单的 `CLI` 和 `Node.js API`，让项目能够一键接入、一键扫描、一键修复、一键升级，并为项目配置 git commit 卡口，降低项目接入规约的成本。
+[@frbundle/lint-cli](https://www.npmjs.com/package/@frbundle/lint-cli) 收敛屏蔽了上述依赖和配置细节，提供简单的 `CLI` 和 `Node.js API`，让项目能够一键接入、一键扫描、一键修复、一键升级，并为项目配置 git commit 卡口，降低项目接入规约的成本。
 
-您可以使用[frb-spec-cli](https://www.npmjs.com/package/frb-spec-cli) 方便地为项目接入全部规范。
+您可以使用[@frbundle/lint-cli](https://www.npmjs.com/package/@frbundle/lint-cli) 方便地为项目接入全部规范。

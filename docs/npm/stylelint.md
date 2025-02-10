@@ -1,15 +1,15 @@
 ---
-title: frb-stylelint-config
+title: @frbundle/stylelint-config
 categories:
   - 工程规范
 tags:
   - 工程规范
 author:
   name: Anson
-  link: https://github.com/yangsheng8/frontend-rules-bundle
+  link: https://github.com/skillstar/frontend-rules-bundle
 ---
 
-# frb-stylelint-config
+# @frbundle/stylelint-config
 
 :::tip
 FRB CSS 规范
@@ -22,7 +22,7 @@ FRB CSS 规范
 需要先行安装 [stylelint](https://www.npmjs.com/package/stylelint) 和 [stylelint-scss](https://www.npmjs.com/package/stylelint-scss)：
 
 ```bash
-npm install frb-stylelint-config stylelint stylelint-scss --save-dev
+npm install @frbundle/stylelint-config stylelint stylelint-scss --save-dev
 ```
 
 ## 使用
@@ -31,6 +31,6 @@ npm install frb-stylelint-config stylelint stylelint-scss --save-dev
 
 ```json
 {
-  "extends": "frb-stylelint-config"
+  "extends": "@frbundle/stylelint-config"
 }
 ```

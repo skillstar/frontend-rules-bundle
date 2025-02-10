@@ -1,15 +1,15 @@
 ---
-title: frb-markdownlint-config
+title: @frbundle/markdownlint-config
 categories:
   - 工程规范
 tags:
   - 工程规范
 author:
   name: Anson
-  link: https://github.com/yangsheng8/frontend-rules-bundle
+  link: https://github.com/skillstar/frontend-rules-bundle
 ---
 
-# frb-markdownlint-config
+# @frbundle/markdownlint-config
 
 :::tip
 FRB 文档 规范
@@ -22,7 +22,7 @@ FRB 文档 规范
 需要先行安装 [markdownlint](https://www.npmjs.com/package/markdownlint)：
 
 ```bash
-npm install frb-markdownlint-config markdownlint --save-dev
+npm install @frbundle/markdownlint-config markdownlint --save-dev
 ```
 
 ## 使用
@@ -31,6 +31,6 @@ npm install frb-markdownlint-config markdownlint --save-dev
 
 ```json
 {
-  "extends": "frb-markdownlint-config"
+  "extends": "@frbundle/markdownlint-config"
 }
 ```
