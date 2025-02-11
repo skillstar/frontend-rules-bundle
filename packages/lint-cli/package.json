@@ -1,6 +1,6 @@
 {
   "name": "@frbundle/lint-cli",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "description": "FRB前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
@@ -45,6 +45,11 @@
     "@babel/eslint-parser": "^7.16.3",
     "@babel/preset-react": "^7.16.0",
     "@commitlint/cli": "^16.0.0",
+    "@frbundle/commitlint-config": "workspace:*",
+    "@frbundle/eslint-config": "workspace:*",
+    "@frbundle/eslint-plugin": "workspace:*",
+    "@frbundle/markdownlint-config": "workspace:*",
+    "@frbundle/stylelint-config": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "chalk": "^4.1.0",
@@ -90,5 +95,5 @@
   "bugs": {
     "url": "https://github.com/skillstar/frontend-rules-bundle/issues"
   },
-  "gitHead": "d6b12ea2a1a132aa99f9d7e9496c056d3137459f"
+  "gitHead": "64b15e359bb995e39eebc36828a5111fadc2f915"
 }

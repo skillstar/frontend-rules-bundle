@@ -1,6 +1,6 @@
 {
   "name": "@frbundle/commitlint-config",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "description": "Git规范",
   "keywords": [
     "commit",
@@ -29,5 +29,5 @@
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^8.0.0"
   },
-  "gitHead": "d6b12ea2a1a132aa99f9d7e9496c056d3137459f"
+  "gitHead": "64b15e359bb995e39eebc36828a5111fadc2f915"
 }
