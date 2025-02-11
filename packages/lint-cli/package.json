@@ -1,6 +1,6 @@
 {
   "name": "@frbundle/lint-cli",
-  "version": "0.0.35",
+  "version": "0.0.36",
   "description": "FRB前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
