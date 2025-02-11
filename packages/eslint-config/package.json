@@ -1,6 +1,6 @@
 {
   "name": "@frbundle/eslint-config",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "description": "FRB的 JavaScript TypeScript Node 规范",
   "keywords": [
     "frontend-rules-bundle",

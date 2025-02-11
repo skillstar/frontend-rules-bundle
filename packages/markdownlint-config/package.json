@@ -1,6 +1,6 @@
 {
   "name": "@frbundle/markdownlint-config",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "description": "文档规范",
   "author": "Anson",
   "homepage": "https://github.com/skillstar/frontend-rules-bundle#readme",
