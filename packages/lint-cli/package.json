@@ -1,6 +1,6 @@
 {
   "name": "@frbundle/lint-cli",
-  "version": "0.0.38",
+  "version": "0.0.39",
   "description": "FRB前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
@@ -45,11 +45,11 @@
     "@babel/eslint-parser": "^7.16.3",
     "@babel/preset-react": "^7.16.0",
     "@commitlint/cli": "^16.0.0",
-    "@frbundle/commitlint-config": "workspace:*",
-    "@frbundle/eslint-config": "workspace:*",
-    "@frbundle/eslint-plugin": "workspace:*",
-    "@frbundle/markdownlint-config": "workspace:*",
-    "@frbundle/stylelint-config": "workspace:*",
+    "@frbundle/commitlint-config": "^0.0.39",
+    "@frbundle/eslint-config": "^0.0.39",
+    "@frbundle/eslint-plugin": "^0.0.39",
+    "@frbundle/markdownlint-config": "^0.0.39",
+    "@frbundle/stylelint-config": "^0.0.39",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "chalk": "^4.1.0",
@@ -88,6 +88,10 @@
   "author": "Anson",
   "homepage": "https://github.com/skillstar/frontend-rules-bundle#readme",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/skillstar/frontend-rules-bundle.git"
@@ -95,5 +99,5 @@
   "bugs": {
     "url": "https://github.com/skillstar/frontend-rules-bundle/issues"
   },
-  "gitHead": "64b15e359bb995e39eebc36828a5111fadc2f915"
+  "gitHead": "0dc08915795458bf526f85806a17709593e37992"
 }

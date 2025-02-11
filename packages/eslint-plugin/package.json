@@ -1,6 +1,6 @@
 {
   "name": "@frbundle/eslint-plugin",
-  "version": "0.0.38",
+  "version": "0.0.39",
   "description": "自定义eslint插件",
   "author": "Anson",
   "homepage": "https://github.com/skillstar/frontend-rules-bundle#readme",
@@ -14,6 +14,7 @@
     "lib"
   ],
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org"
   },
   "repository": {
@@ -33,5 +34,5 @@
     "jest": "^29.7.0",
     "require-all": "^3.0.0"
   },
-  "gitHead": "64b15e359bb995e39eebc36828a5111fadc2f915"
+  "gitHead": "0dc08915795458bf526f85806a17709593e37992"
 }

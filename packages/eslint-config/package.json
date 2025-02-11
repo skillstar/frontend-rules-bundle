@@ -1,6 +1,6 @@
 {
   "name": "@frbundle/eslint-config",
-  "version": "0.0.38",
+  "version": "0.0.39",
   "description": "FRB的 JavaScript TypeScript Node 规范",
   "keywords": [
     "frontend-rules-bundle",
@@ -14,6 +14,7 @@
   "license": "ISC",
   "main": "index.js",
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org"
   },
   "repository": {
@@ -48,5 +49,5 @@
     "typescript": "^4.1.2",
     "vue-eslint-parser": "^7.3.0"
   },
-  "gitHead": "64b15e359bb995e39eebc36828a5111fadc2f915"
+  "gitHead": "0dc08915795458bf526f85806a17709593e37992"
 }

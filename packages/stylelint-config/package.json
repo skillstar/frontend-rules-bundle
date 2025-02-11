@@ -1,6 +1,6 @@
 {
   "name": "@frbundle/stylelint-config",
-  "version": "0.0.38",
+  "version": "0.0.39",
   "main": "index.js",
   "keywords": [
     "style",
@@ -18,6 +18,7 @@
     "test": "__tests__"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org"
   },
   "repository": {
@@ -37,5 +38,5 @@
     "stylelint": "^16.8.1",
     "stylelint-scss": "^6.5.0"
   },
-  "gitHead": "64b15e359bb995e39eebc36828a5111fadc2f915"
+  "gitHead": "0dc08915795458bf526f85806a17709593e37992"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@frbundle/commitlint-config",
-  "version": "0.0.38",
+  "version": "0.0.39",
   "description": "Git规范",
   "keywords": [
     "commit",
@@ -17,6 +17,7 @@
     "lib"
   ],
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org"
   },
   "repository": {
@@ -29,5 +30,5 @@
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^8.0.0"
   },
-  "gitHead": "64b15e359bb995e39eebc36828a5111fadc2f915"
+  "gitHead": "0dc08915795458bf526f85806a17709593e37992"
 }
